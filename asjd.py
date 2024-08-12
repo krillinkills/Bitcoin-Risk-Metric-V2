@@ -2,6 +2,14 @@ import re
 
 
 def handle_near_x(query):
+    """_summary_
+
+    Args:
+        query (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     # Regular expression to match the NEAR/x pattern
     near_pattern = re.compile(r'(\w+|"[^"]*")\s+NEAR/(\d+)\s+(\w+|"[^"]*")')
 
